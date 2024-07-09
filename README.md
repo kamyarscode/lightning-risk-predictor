@@ -16,6 +16,9 @@ You will first need to install the repository. You can do this with:
 ## Data Pipeline
 Lightning Data Time and Date -> Weather data
 
+## Model
+At this time there is no plan to upload the model, but the dataset will be made available on Kaggle or another archive/respository.
+
 ## References
 [Earth Data Search Engine](https://search.earthdata.nasa.gov/search?portal=ghrc&lat=41.52764855906194&long=-155.53125)  
 [NCEI Severe Weather Data Inventory](https://www.ncei.noaa.gov/maps/swdi/)  
