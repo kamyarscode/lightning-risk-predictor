@@ -1,0 +1,9 @@
+name: lightning_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - numpy>=2.0.0
+  - pandas>=2.2.2
+  - matplotlib>=3.9.2
+  - torch>=2.3.1
