@@ -1,9 +1,10 @@
 # Lightning Risk Predictor
-A small app to detect risk of lightning using a machine learning model trained on environmental factors.
+A dockerized Python app to detect risk of lightning using a machine learning model trained on environmental factors.
 
 ## Approach
-The initial phase will predominantly be a lot of research that needs to go into gathering the lightning, weather, and climate data via API calls or manually downloading legacy NOAA data. We will divide the larger corpus into a subset to explore through via Jupyter notebooks with the goal of understanding the data.
-We will then automate the process of extracting relevant data to define as the input nodes. Once we understand the input process, we can start to figure out the architecture for the model we want to use or build. 
+The initial phase will predominantly be a lot of research that needs to go into gathering the lightning, weather, and climate data via API calls or manually downloading legacy NOAA data. We will divide the larger corpus into a subset to explore through via Jupyter notebooks with the goal of understanding the data.  
+
+We will then automate the process of extracting relevant data to define as the input nodes. Once we understand the input process, we can start to figure out the architecture for the model we want to use or build.  
 
 The initial phase will also include a good amount of data cleaning to prep for model input. 
 
@@ -14,8 +15,8 @@ You will first need to install the repository. You can do this with:
 `python -m pip install --editable .`
 
 ## Data Pipeline
-Lightning Data Time and Date -> Weather data
 
+The current approach will take occurrences of lightning and fetch the coordinates for them. Once we have the coordinates and time, we can cross check this with weather and climate data for the same time and coordinates to see the conditions. We will need to average the times and add tolerances for coordinates and time as well since it will be tedious to get the _exact_ data. Close estimates will be good enough for intial testing purposes. Once we extract this data, a larger corpus will be created and that will be the majority of the data we use.
 ## Model
 At this time there is no plan to upload the model, but the dataset will be made available on Kaggle or another archive/respository.
 
