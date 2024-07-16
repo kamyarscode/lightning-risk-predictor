@@ -1,2 +1,8 @@
-nodes.md
+notes.md
 axe-linter.yml
+lightning-risk
+params.json
+tests
+build
+src/lrp.egg-info
+src/__pycache__
