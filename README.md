@@ -26,4 +26,5 @@ At this time there is no plan to upload the model, but the dataset will be made 
 [Actual Lightning and Storm Data](https://www1.ncdc.noaa.gov/pub/data/swdi/)  
 [Next Gen Weather Data](https://www.ncei.noaa.gov/products/radar/next-generation-weather-radar)  
 [Lightning Products](https://www.ncei.noaa.gov/products/lightning-products#:~:text=NCEI%20provides%20access%20to%20lightning,allow%20spatial%20and%20temporal%20subsetting.)  
-[NOAA Token Request Page](https://www.ncdc.noaa.gov/cdo-web/token)  
+[NOAA Token Request Page](https://www.ncdc.noaa.gov/cdo-web/token)
+[NOAA Storm Data and Identifiers](https://www.ncdc.noaa.gov/stormevents/ftp.jsp)
